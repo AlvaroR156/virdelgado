@@ -1,1 +1,60 @@
 // PUT CUSTOM SCSS / SASS HERE
+$yellow: #efc32f;
+$blue: #486277;
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.brand-name{
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 700;
+  span {
+    font-weight: 300;
+  }
+}
+
+section {
+  padding: 3em 1em;
+
+  line-height: 1.8em;
+  h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 1.5em;
+  }
+
+  .title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+  }
+
+  &.header {
+    text-align: center;
+  }
+  &.portfolio {
+    margin-top: 5em;
+    .grid{
+      img {
+        padding-bottom: 30px;
+      }
+    }
+  }
+  &.about {
+    margin-bottom: 3em;
+  }
+}
+
+footer {
+  background-color: #c3c3c3;
+  margin-top: 3em;
+  padding: 1.5em 0;
+  font-size: $font-size-small;
+  a {
+    color: $blue;
+  }
+  a:hover {
+    color: $yellow;
+  }
+}
+
